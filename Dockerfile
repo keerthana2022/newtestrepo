@@ -17,3 +17,5 @@ COPY --from=git /usr/java/tomcat-config/context.xml /usr/local/tomcat/webapps/ho
 COPY --from=git /usr/java/tomcat-config/tomcat-users.xml /usr/local/tomcat/conf/
 EXPOSE 8080
 test
+testing 
+always testing
