@@ -16,3 +16,4 @@ COPY --from=git /usr/java/tomcat-config/context.xml /usr/local/tomcat/webapps/ma
 COPY --from=git /usr/java/tomcat-config/context.xml /usr/local/tomcat/webapps/host-manager/META-INF/context.xml
 COPY --from=git /usr/java/tomcat-config/tomcat-users.xml /usr/local/tomcat/conf/
 EXPOSE 8080
+test
